@@ -1,0 +1,7 @@
+.content-wrapper {
+  margin-top: 60px;
+  padding-top: 80px;
+  background-color: #f2f2f7;
+  min-height: calc(100vh - 150px); 
+  font-family: "Poppins",sans-serif;
+}

@@ -1,0 +1,44 @@
+ .title {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--primary);
+  letter-spacing: 1px;
+}
+
+.contact-container {
+  width: 40%;
+  margin: auto;
+  margin-top: 40px;
+  background: #ffffff;
+  padding: 30px 35px;
+  border-radius: 14px;
+  border-top: 5px solid var(--primary); 
+  transition: 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+  text-align: center;
+}
+.contact-container:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.16);
+}
+.contact-container strong {
+  color: var(--primary);
+}
+.contact-container p {
+  font-size: 18px;
+  margin: 12px 0;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+.contact-container a {
+  color: var(--secondary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.contact-container a:hover {
+  color: var(--text-light);
+  text-decoration: underline;
+}

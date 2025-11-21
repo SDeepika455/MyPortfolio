@@ -1,0 +1,66 @@
+.title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin-bottom: 25px;
+  color: var(--primary);
+  letter-spacing: 1px;
+}
+
+.grid-container {
+  width: 50%;
+  margin: auto;
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); */
+  gap: 30px;
+}
+
+.card {
+  background: var(--card-bg);
+  padding: 25px 30px;
+  border-radius: 14px;
+  box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+  border-top: 5px solid var(--primary);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+.card h3 {
+  font-size: 22px;
+  color: var(--primary);
+  margin-bottom: 5px;
+}
+
+.duration {
+  font-size: 15px;
+  color: var(--secondary);
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.intern-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.intern-list li {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: var(--text-light);
+  padding-left: 18px;
+  position: relative;
+  line-height: 1.6;
+}
+
+.intern-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+  color: var(--secondary);
+  font-size: 20px;
+  line-height: 15px;
+}
